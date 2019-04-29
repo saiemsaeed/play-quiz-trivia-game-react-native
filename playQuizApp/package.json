@@ -1,0 +1,39 @@
+{
+  "name": "playQuiz",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.1.6",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "firebase": "^5.10.1",
+    "lodash": "^4.17.11",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-timer": "^1.3.6",
+    "react-native-timer-countdown": "^4.1.0",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "babel-jest": "24.7.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
