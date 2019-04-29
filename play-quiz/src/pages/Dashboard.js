@@ -9,6 +9,7 @@ import Categories from '../components/Categories/categories';
 import Topics from '../components/Topics/topics';
 import Questions from '../components/Questions/questions';
 import Main from '../components/Main/main';
+import score from '../components/Score/score';
 
 class Dashboard extends PureComponent {
   render() {
@@ -51,6 +52,12 @@ class Dashboard extends PureComponent {
                   path="/categories"
                   comingFrom={this.props.location}
                   component={Categories}
+                />
+                <AuthRoute
+                  exact
+                  path="/scores"
+                  comingFrom={this.props.location}
+                  component={score}
                 />
                 <AuthRoute
                   path="/questions/:topic"

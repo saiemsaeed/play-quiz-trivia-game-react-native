@@ -29,6 +29,7 @@ const createUser = async (request: Request, response: Response) => {
       .doc(newUser.uid)
       .set({
         gender,
+        name,
         tokens: []
       });
     response.status(200).send(newUser);

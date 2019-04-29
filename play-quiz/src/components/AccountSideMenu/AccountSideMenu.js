@@ -26,6 +26,9 @@ class AccountSideMenu extends PureComponent {
           <Menu.Item key="topics">
             <Link to="/topics">Topics</Link>
           </Menu.Item>
+          <Menu.Item key="scores">
+            <Link to="/scores">Scores</Link>
+          </Menu.Item>
           {/* <Menu.Item key="addQuestion">
             <Link to="/questions">Questions</Link>
           </Menu.Item> */}

@@ -6,7 +6,7 @@ export const SIGNOUT = 'SIGNOUT';
 export const CATEGORIES = 'CATEGORIES';
 export const TOPICS = 'TOPICS';
 export const QUESTIONS = 'QUESTIONS';
-export const GAME = 'GAME';
+export const SCORE = 'SCORE';
 
 // SUFFIXES
 export const SUCCESS = '_SUCCESS';
